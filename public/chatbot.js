@@ -11,7 +11,7 @@
     name: "Astro",
     // Where the Flask backend lives. If you open the page through Flask (port 5000)
     // this is a relative URL; if you use VS Code "Live Server" (port 5500) it calls Flask directly.
-    apiUrl: location.port === "5000" ? "/api/chat" : "http://127.0.0.1:5000/api/chat",
+    apiUrl: "/api/chat",
 
     // Reminder bubble: shown at a random moment between min and max, then repeats.
     // Defaults to 8–9 MINUTES. For seconds instead, use: minSeconds: 8, maxSeconds: 9
